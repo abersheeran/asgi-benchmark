@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "asgi-benchmark"
+version = "0.1.0"
+description = ""
+authors = ["abersheeran <me@abersheeran.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+httpx = "^0.14.0"
+
+"index.py" = "^0.12.1"
+fastapi = "^0.61.0"
+quart = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
