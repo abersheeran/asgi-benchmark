@@ -8,8 +8,7 @@ authors = ["abersheeran <me@abersheeran.com>"]
 python = "^3.7"
 
 httpx = "^0.14.0"
-
-"index.py" = "^0.12.1"
+"index.py" = "^0.12.5"
 fastapi = "^0.61.0"
 quart = "^0.13.0"
 

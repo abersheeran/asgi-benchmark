@@ -1,14 +1,15 @@
+On my laptop, the time taken to execute 10,000 requests is as follows:
 
 ```
 ➜ python .\big-project\benchmark.py
-Index 5.9259515
-FastAPI 14.9250003
-Quart 24.4172359
+Index 5.9365543
+FastAPI 15.8664658
+Quart 26.0568632
 ```
 
 ```
 ➜ python .\simple-project\benchmark.py
-Index 4.725969
-FastAPI 5.2639977
-Quart 14.805002
+Index 5.6616192
+FastAPI 5.7279993
+Quart 16.9541746
 ```
